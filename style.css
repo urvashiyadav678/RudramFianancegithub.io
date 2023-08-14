@@ -829,20 +829,13 @@ header {
         display: none;
 
     }
-
-    .videosection-2 {
+   .videosection-2 {
         display: flex;
          width: 100vw;
-        height: 100%;
-        /* background-image:linear-gradient(#bd0c0c,#ccc) ; */
-        position: relative;
-        padding: 0 5%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        object-fit: cover;
-        object-position: center;
-        overflow: hidden;
+        height: 80vw;
+       
+    
+        /* overflow: hidden; */
 
     }
     .videosection-2 .back_video{
@@ -851,23 +844,6 @@ header {
         bottom: 0;
         z-index: 100;
     }
-    @media(min-aspect-ratio: 16/9) {
-        .back_video {
-            width: 100%;
-            height: auto;
-        }
-    }
-    
-    @media(max-aspect-ratio: 16/9) {
-        .back_video {
-            width: auto;
-            height: 100%;
-        }
-    }
-    .videosection-2 {
-        padding: 0;
-    }
-
 
     .sec4 {
         margin-top: 1000px;
