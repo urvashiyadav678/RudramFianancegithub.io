@@ -68,13 +68,28 @@ header {
     transition: all 0.8s ease-in-out;
 
 }
-.nav-toggle{
-    display: none;
-}
 
 .sec1 .nav ul li a:hover {
     color: #0397FF;
     border-bottom: 1px solid #0397FF;
+}
+
+/* .sec1 .nav-toggle {
+    display: none;
+} */
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
 }
 .logo p{
     color: black;
