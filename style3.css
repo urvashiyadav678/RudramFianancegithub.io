@@ -94,6 +94,12 @@ header {
 .logo p{
     color: black;
 }
+ 
+    .logo p span{
+        background: linear-gradient(to right, #47d26a, #7072bd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 .service{
     margin-top: 100px;
     display: grid;
